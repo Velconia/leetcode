@@ -2,8 +2,10 @@
 #define MAX_PRODUCT_SUBARRAY_H
 
 // There is a best practice of this kind of problem
-// I named this kind of problem with "ThisSum and maxSum method"
-
+// I named this kind of problem with "thisSum and maxSum method"
+// We always keep two values - "thisSum" and "maxSum"
+// thisSum represent the the sum of this subarray
+// maxSum represent the max sum of all subarraies which we have gone through
 class Solution {
 public:
     int maxProduct(int A[], int n)
