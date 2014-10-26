@@ -5,3 +5,4 @@
 
 #Ignore all exetuable files
 *.exe
+*.cpp
