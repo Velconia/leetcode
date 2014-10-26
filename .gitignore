@@ -1,0 +1,7 @@
+#Ignore all files in build | document | images folders
+/build
+/document
+/images
+
+#Ignore all exetuable files
+*.exe

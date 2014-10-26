@@ -1,3 +1,9 @@
+#ifndef MAX_PRODUCT_SUBARRAY_H
+#define MAX_PRODUCT_SUBARRAY_H
+
+// There is a best practice of this kind of problem
+// I named this kind of problem with "ThisSum and maxSum method"
+
 class Solution {
 public:
     int maxProduct(int A[], int n)
@@ -42,3 +48,5 @@ public:
 		return res;
 	}
 };
+
+#endif // MAX_PRODUCT_SUBARRAY_H
